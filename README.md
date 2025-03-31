@@ -41,10 +41,7 @@ ENT.MaxHealth = 200
 To find a weapon or entity's class name:
 - For weapons: Run the command `lua_run_cl print(LocalPlayer():GetActiveWeapon():GetClass())` in console while holding the weapon
 - For entities: Aim at an entity and run `lua_run_cl print(LocalPlayer():GetEyeTrace().Entity:GetClass())` in console
-
-### 📋 Examples
-
-See the included `lua/stubby/sweps/example_swep.lua` file for an example of modifying a weapon.
+- Alternatively, you can check the source code of the weapon or entity in the addon files
 
 ## ℹ️ Notes
 
