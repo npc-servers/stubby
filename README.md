@@ -17,7 +17,7 @@ SENT/SWEP Stubber provides a clean way to override properties of existing entiti
 ### 🔫 Modifying Weapons (SWEPs)
 
 1. Create a new Lua file in the `lua/stubby/sweps/` directory
-2. Name the file exactly the same as the weapon's class name (e.g., `m9k_psg1.lua` for the M9K PSG-1)
+2. Name the file exactly the same as the weapon's class name (e.g., `example_swep.lua` a example swep)
 3. In this file, define the properties you want to override:
 
 ```lua
@@ -44,7 +44,7 @@ To find a weapon or entity's class name:
 
 ### 📋 Examples
 
-See the included `lua/stubby/sweps/m9k_psg1.lua` file for an example of modifying a weapon.
+See the included `lua/stubby/sweps/example_swep.lua` file for an example of modifying a weapon.
 
 ## ℹ️ Notes
 
