@@ -67,9 +67,6 @@ end
 
 hook.Add( "PreRegisterSWEP", "StubbyPreRegisterSWEP", function( originalTbl, class )
     local stubTbl = STUBBY.SWEPStubs[class]
-    if class == "m9k_psg1" then
-    print( "PreRegisterSWEP", class, tbl, stubTbl )
-    end
     if not stubTbl then return end
     applyStub( originalTbl, stubTbl )
 end )
